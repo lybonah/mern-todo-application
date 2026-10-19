@@ -1,0 +1,51 @@
+
+.task-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.edit-button {
+  background: #f7c3d7;
+  color: #994568;
+  padding: 9px 12px;
+  font-size: 12px;
+}
+
+.edit-button:hover {
+  background: #ed9fbe;
+}
+
+.edit-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+
+.edit-input {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px;
+  border: 1px solid #f3bfd2;
+  border-radius: 10px;
+  background: #fff1f6;
+  color: #8f4563;
+  font-family: inherit;
+}
+
+.delete-button {
+  background: #ff4d6d;
+  color: white;
+  padding: 9px 12px;
+  font-size: 12px;
+  border: none;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.delete-button:hover {
+  background: #e62950;
+  transform: translateY(-2px);
+}
